@@ -19,7 +19,7 @@ ScalarConverter::~ScalarConverter(void) {
   return;
 }
 
-bool have_caracterisque(std::string input)
+bool has_type(std::string input)
 {
   int dot = 0;
   int minus = 0;
@@ -66,7 +66,7 @@ void print_int(std::string input)
       std::cout << "int: " << static_cast<int>(input[0]) << std::endl;
     return;
   }
-  if (!have_caracterisque(input))
+  if (!has_type(input))
   {
     std::cout << "int: impossible" << std::endl;
     return;
@@ -95,7 +95,7 @@ void print_float(std::string input)
     std::cout << "float: " << input << 'f' << std::endl;
     return;
   }
-  if (!have_caracterisque(input))
+  if (!has_type(input))
   {
     std::cout << "float: impossible" << std::endl;
     return;
@@ -125,7 +125,7 @@ void print_double(std::string input)
     std::cout << "double: " << input << std::endl;
     return;
   }
-  if (!have_caracterisque(input))
+  if (!has_type(input))
   {
     std::cout << "double: impossible" << std::endl;
     return;
