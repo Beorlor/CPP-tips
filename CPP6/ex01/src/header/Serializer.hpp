@@ -4,6 +4,7 @@
 # include <iostream>
 # include <string>
 # include <fstream>
+# include <stdint.h>
 
 typedef struct Data
 {

@@ -5,6 +5,9 @@
 # include <string>
 # include <exception>
 # include <cmath>
+# include <cstdlib>
+# include <climits>
+# include <cfloat>
 
 class ScalarConverter {
   private :

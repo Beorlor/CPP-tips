@@ -4,6 +4,10 @@
 # include <iostream>
 # include <string>
 # include <fstream>
+# include <stdint.h>
+# include <ctime>
+# include <typeinfo>
+# include <cstdlib>
 
 class Base
 {
